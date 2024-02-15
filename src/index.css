@@ -1,0 +1,348 @@
+button{
+  cursor: pointer;
+}
+*{
+  box-sizing: border-box;
+}
+.d-flex{
+  display:flex;
+}
+.bg-gray{
+  background:#f4f4f4;;
+}
+.flex-column{
+  flex-direction: column;
+}
+.justify-content-start{
+  justify-content:start;
+}
+.justify-content-center{
+  justify-content:center;
+}
+.justify-content-end{
+  justify-content:end;
+}
+.space-between{
+  justify-content: space-between;
+}
+.bg-blue{
+  background-color:#0866FF;
+}
+.border-blue{
+  border: 1px solid #0866FF;
+}
+.bg-white{
+  background-color:white;
+}
+.bg-cover{
+  background-size:cover;
+}
+.bg-SignupForm {
+    position: relative;
+    background-image: url("https://i.pinimg.com/originals/da/24/dd/da24dd4512e3ef96adc79fb3ad2849ab.gif");
+    background-size: cover;
+    background-position: center;
+     /* Adjust the height as needed */
+
+
+    animation: slideInAnimation 1s ease-in-out;
+    animation-fill-mode:both;
+    opacity: 0;
+}
+
+@keyframes slideInAnimation {
+    0% {
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+th,td{
+  border:1px solid black;
+  box-sizing: border-box;
+  padding: 6px;
+}
+table{
+  border-collapse: collapse;
+  text-align: center;
+}
+.vh-100{
+  height:100vh;
+}
+.bg-pos-bottom{
+  background-position:center;
+}
+.br-2{
+  border-radius:2%;
+}
+.br-5{
+  border-radius:5%;
+}
+.form-input-size{
+  height:6vh;
+  width:25vw;
+  display:block;
+  margin:2%;
+  margin-bottom:3%;
+  border:2px solid rgb(187, 187, 187);
+  border-radius:3%;
+  padding:2%;
+}
+.SignUp-btn{
+  height:6vh;
+  width:25vw;
+  display:block;
+  margin:2%;
+  margin-bottom:3%;
+  border-radius:3%;
+  padding:2%;
+}
+.cursor-p{
+  cursor: pointer;
+}
+.m-1{
+  margin:1%;
+}
+.w-100{
+  width:100%;
+}
+.m-0{
+  margin:0%;
+}
+.vh-65{
+  height:65vh;
+} 
+.w-35{
+  width:38%;
+}
+.align-center{
+  align-items:center;
+}
+.text-center{
+  text-align: center;
+}
+.dis-block{
+  display:block;
+}
+.text-white{
+  color:white;
+}
+.text-blue{
+  color:#1877F2;
+}
+.p-1{
+  padding:1%;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+
+
+.w-100{
+  width:100%;
+}
+
+
+.add-plant-btn {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+.add-plant-btn:hover {
+  background-color: #45a049;
+}
+
+
+.plant-list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.plant-item {
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 12px;
+  padding: 20px;
+  text-align: center;
+  width: 31%; 
+
+}
+
+.plant-item img {
+  border-radius: 8px;
+  margin-bottom: 10px;
+  max-width: 100%;
+}
+
+.plant-item h1 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.plant-item p {
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.plant-item p.active {
+  color: green;
+}
+
+.plant-item p.inactive {
+  color: red;
+}
+
+
+.green-btn {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 5px;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.green-btn:hover {
+  background-color: #45a049;
+}
+
+
+
+.bw{
+  background-color: white;
+}
+.cb{
+  color: black;
+}
+
+
+
+
+
+
+.bg-form{
+  background-image: url('FactoryGif.gif');
+  background-position:right;
+  background-repeat:no-repeat;
+  height:100vh;
+  padding-left:15%;
+  padding-top:2%;
+}
+.submit-btn,
+.back-btn {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      margin: 5px;
+      transition: background-color 0.3s;
+  }
+
+  .submit-btn:hover,
+  .back-btn:hover {
+      background-color: #45a049;
+  }
+
+
+.form-input-size2{
+  height:6vh;
+  width:25vw;
+  display:block;
+  margin-bottom:2px;
+  border:2px solid rgb(187, 187, 187);
+  border-radius:3%;
+  padding:2px;
+}
+
+
+.text-blue{
+  
+}
+
+
+.otp-btn {
+  background-color: #4CAF50;
+  color: white; 
+  padding: 10px; 
+  font-size: 12px;
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  background-image: url('Plant2.jpeg');
+}
+
+.otp-btn:hover {
+  background-color: #45a049; 
+}
+
+
+.red{
+  color: rgb(255, 0, 0);
+}
+
+
+.delete-btn{
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #f3331e;
+  color: #fff; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+
+.delete-btn:hover {
+  background-color: #ffffff; 
+  color:#f3331e;
+  box-shadow: 0 4px 6px rgb(32, 32, 32);
+}
+
+.cw{
+  color: white;
+  font-size:larger;
+}
+.bg-forgot-password{
+  padding-left:5%;
+  padding-top:2%;
+  background-image:url(FactorysmokeGif.gif);
+  background-size: cover;
+  height:100vh;
+}
+.dis-inline{
+  display: inline;
+}
+        
+
+
+
+
+
+
